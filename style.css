@@ -34,10 +34,11 @@ h1 {
 }
 
 .half-width img {
-    border-top: 10px solid darkslategrey;
-    padding-top: 70px;
-    width: 80%;
-
+    background-repeat: no-repeat;
+    border: 10px solid tomato;
+    margin-top: 60px;
+    border-radius: 7px;
+    width: 90%;
 }
 
 .flexible-container {
