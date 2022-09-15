@@ -1,0 +1,47 @@
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.span {
+    color: deeppink;
+    font-size: 60px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.button-color {
+    background-image: linear-gradient(orange, tomato);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: bisque;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 40px;
+    font-family: 'Poppins';
+}
+
+.button-color:hover {
+    background-image: linear-gradient(tomato, purple);
+    color: beige;
+}
+
+.half-width img {
+    border-top: 10px solid darkslategrey;
+    padding-top: 70px;
+    width: 80%;
+
+}
+
+.flexible-container {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
