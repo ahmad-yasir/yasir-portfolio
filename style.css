@@ -46,3 +46,36 @@ h1 {
     display: flex;
 
 }
+
+.right-border {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-aria {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    border-left: 6px solid;
+    margin-bottom: 20px;
+}
+
+#instructor-ex {
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+#developer-ex {
+    border-image: linear-gradient(red, purple);
+    border-image-slice: 1;
+}
