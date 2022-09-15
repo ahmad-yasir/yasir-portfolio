@@ -15,6 +15,7 @@ h1 {
 .half-width {
     width: 50%;
     padding-left: 5%;
+    margin-bottom: 40px;
 }
 
 .button-color {
@@ -43,6 +44,5 @@ h1 {
 
 .flexible-container {
     display: flex;
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+
 }
